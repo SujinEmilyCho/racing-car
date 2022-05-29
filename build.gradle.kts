@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+//    testImplementation("io.kotest", "kotest-runner-junit5", "5.2.3")
+    testImplementation("org.amshove.kluent:kluent:1.68")
 }
 
 tasks.test {
